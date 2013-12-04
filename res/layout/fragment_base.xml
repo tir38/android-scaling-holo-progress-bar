@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <!-- narrow progress bar -->
+    <TextView android:text="Narrow ProgressBar"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"/>
+
+    <ProgressBar android:id="@+id/progress_bar_narrow"
+                 android:layout_width="fill_parent"
+                 android:layout_height="30dp"
+                 style="@style/ProgressBar.Horizontal"
+                 android:progressDrawable="@drawable/progress_horizontal_holo_light"
+                 android:padding="3dp">
+
+    </ProgressBar>
+
+    <!-- wide progress bar -->
+    <TextView android:text="Wide ProgressBar"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"/>
+
+    <ProgressBar android:id="@+id/progress_bar_wide"
+                 android:layout_width="fill_parent"
+                 android:layout_height="50dp"
+                 style="@style/ProgressBar.Horizontal"
+                 android:progressDrawable="@drawable/progress_horizontal_holo_light"
+                 android:padding="3dp">
+
+    </ProgressBar>
+</LinearLayout>
+
